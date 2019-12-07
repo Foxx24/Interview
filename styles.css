@@ -1,0 +1,83 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: sans-serif;
+	padding: 2em;
+	max-width: 51em;
+	background-color: grey;
+}
+main{
+/*	position: absolute;
+	left: 16%;
+	top:95%;*/
+
+}
+.hero {
+	/* Sizing */
+	width: auto;
+	height: 90vh;
+
+	/* Flexbox stuff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Text styles */
+	text-align: center;
+}
+
+.hero h1 {
+	/* Text styles */
+	font-size: 4em;
+
+	/* Margins */
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+.hero h2 {
+	color: orange;
+}
+
+summary {
+	margin: 0;
+	padding: 0;
+	font-size: 1.25em;
+	font-weight: 700;
+	outline: none;
+	cursor: pointer;
+	transition: color 0.3s;
+	color: aqua;
+}
+
+.Summaryhover {
+	color: red;
+}
+
+.rectangle {
+	max-width: 100%;
+	height: 5em;
+	background-color: red;
+	z-index: -1;
+	position: absolute;
+	top: 1%;
+}
+
+.toggle p {
+	opacity: 0;
+	transition: all 0.5s;
+	transition-delay: 0.5s;
+	height: 0;
+	overflow: hidden;
+}
+
+.show p {
+	opacity: 1;
+	height: auto;
+	overflow: visible;
+}
